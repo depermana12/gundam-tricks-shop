@@ -4,15 +4,9 @@ import { useState, useEffect } from "react";
 import { Row, Col, Image, ListGroup, Card, Button } from "react-bootstrap";
 import axios from "axios";
 import Rating from "../components/Rating";
+import formatCurrency from "../utils/formatCurrency";
 
 function ProductScreen() {
-  const formatCurrency = (price) =>
-    new Intl.NumberFormat("id-ID", {
-      style: "currency",
-      currency: "IDR",
-      maximumFractionDigits: 0,
-    }).format(price);
-
   const [product, setProduct] = useState({});
 
   const { id: productId } = useParams();
