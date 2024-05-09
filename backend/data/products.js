@@ -1,6 +1,5 @@
 const products = [
   {
-    _id: "1",
     name: "Mikro Led Gundam untuk Gunpla SD/HG/RG/MG",
     image: "/images/mikroled.jpg",
     description:
@@ -13,7 +12,6 @@ const products = [
     numReviews: 172,
   },
   {
-    _id: "2",
     name: "Mikro led untuk Gundam Model Kit/Diecast/Diorama",
     image: "/images/mikrowireled.jpg",
     description:
@@ -26,7 +24,6 @@ const products = [
     numReviews: 60,
   },
   {
-    _id: "3",
     name: "Pico LED untuk Gundam & Hobi",
     image: "/images/picoled.jpeg",
     description:
@@ -39,7 +36,6 @@ const products = [
     numReviews: 131,
   },
   {
-    _id: "4",
     name: "Chip LED untuk Gundam & Hobi",
     image: "/images/chipled.jpg",
     description:
@@ -52,7 +48,6 @@ const products = [
     numReviews: 66,
   },
   {
-    _id: "5",
     name: "All in one Mod LED Gundam & Hobby",
     image: "/images/aiomikro.jpeg",
     description:
@@ -65,7 +60,6 @@ const products = [
     numReviews: 219,
   },
   {
-    _id: "6",
     name: "Kabel Mikro diameter 0.2mm for Model Kit Gunpla Diorama & Hobi",
     image: "/images/kabelmikro.jpg",
     description:
